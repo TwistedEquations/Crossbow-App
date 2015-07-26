@@ -5,6 +5,8 @@
       <module fileurl="file://$PROJECT_DIR$/Libraries/CrossBow/CrossBow.iml" filepath="$PROJECT_DIR$/Libraries/CrossBow/CrossBow.iml" />
       <module fileurl="file://$PROJECT_DIR$/Libraries/CrossBow-Wear/CrossBow-Wear.iml" filepath="$PROJECT_DIR$/Libraries/CrossBow-Wear/CrossBow-Wear.iml" />
       <module fileurl="file://$PROJECT_DIR$/Libraries/Crossbow-Core/Crossbow-Core.iml" filepath="$PROJECT_DIR$/Libraries/Crossbow-Core/Crossbow-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Libraries/Crossbow-Wear-Core/Crossbow-Wear-Core.iml" filepath="$PROJECT_DIR$/Libraries/Crossbow-Wear-Core/Crossbow-Wear-Core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Libraries/Crossbow-Wear-Receiver/Crossbow-Wear-Receiver.iml" filepath="$PROJECT_DIR$/Libraries/Crossbow-Wear-Receiver/Crossbow-Wear-Receiver.iml" />
       <module fileurl="file://$PROJECT_DIR$/Libraries/Libraries.iml" filepath="$PROJECT_DIR$/Libraries/Libraries.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/crossbow-test.iml" filepath="$PROJECT_DIR$/crossbow-test.iml" />

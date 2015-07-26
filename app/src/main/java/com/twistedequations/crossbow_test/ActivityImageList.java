@@ -10,6 +10,7 @@ import android.widget.ListView;
 
 
 import com.crossbow.volley.CrossbowImage;
+import com.crossbow.volley.toolbox.Crossbow;
 
 import butterknife.Bind;
 import butterknife.ButterKnife;
@@ -61,7 +62,8 @@ public class ActivityImageList extends AppCompatActivity {
                 imageView = ImageView.class.cast(convertView);
             }
 
-            CrossbowImage.from(getApplicationContext())
+            Crossbow.get(getApplicationContext())
+                    .loadImage()
                     .fade(200)
                     .source(imageUrls[position])
                     .centerCrop()

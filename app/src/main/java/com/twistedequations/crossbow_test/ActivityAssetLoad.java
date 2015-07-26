@@ -8,7 +8,7 @@ import android.widget.TextView;
 
 
 import com.crossbow.volley.CrossbowImage;
-import com.crossbow.volley.ImageLoad;
+import com.crossbow.volley.toolbox.Crossbow;
 
 import java.util.Locale;
 
@@ -31,7 +31,7 @@ public class ActivityAssetLoad extends AppCompatActivity {
 
         final long startTime = System.currentTimeMillis();
 
-        CrossbowImage.from(this).source("test-image.jpg").fade(200).listen(new ImageLoad.Listener() {
+        Crossbow.get(this).loadImage().source("test-image.jpg").fade(200).listen(new CrossbowImage.Listener() {
             @Override
             public void onLoad(boolean success, boolean fromCache, Bitmap bitmap, ImageView imageView) {
                 if (success) {

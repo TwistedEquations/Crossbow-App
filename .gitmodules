@@ -1,3 +1,6 @@
 [submodule "CrossBow"]
 	path = CrossBow
 	url = https://github.com/TwistedEquations/CrossBow
+[submodule "Libraries"]
+	path = Libraries
+	url = https://Twistedequations@bitbucket.org/Twistedequations/crossbow.git

@@ -13,6 +13,8 @@
             <option value="$PROJECT_DIR$/Libraries/CrossBow" />
             <option value="$PROJECT_DIR$/Libraries/CrossBow-Wear" />
             <option value="$PROJECT_DIR$/Libraries/Crossbow-Core" />
+            <option value="$PROJECT_DIR$/Libraries/Crossbow-Wear-Core" />
+            <option value="$PROJECT_DIR$/Libraries/Crossbow-Wear-Receiver" />
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/wear" />
           </set>

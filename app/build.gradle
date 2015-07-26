@@ -36,5 +36,6 @@ dependencies {
 
     //crossbow code
     compile project(':Libraries:CrossBow')
+    compile project(':Libraries:Crossbow-Wear-Receiver')
     wearApp project(':wear')
 }

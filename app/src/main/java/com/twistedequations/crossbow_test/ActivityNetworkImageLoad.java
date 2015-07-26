@@ -7,7 +7,7 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.crossbow.volley.CrossbowImage;
-import com.crossbow.volley.ImageLoad;
+import com.crossbow.volley.toolbox.Crossbow;
 
 import java.util.Locale;
 
@@ -29,7 +29,7 @@ public class ActivityNetworkImageLoad extends AppCompatActivity {
         ButterKnife.bind(this);
 
         final long startTime = System.currentTimeMillis();
-        CrossbowImage.from(this).source("https://i.imgur.com/0l0fkFm.jpg").fade(200).listen(new ImageLoad.Listener() {
+        Crossbow.get(this).loadImage().source("https://i.imgur.com/0l0fkFm.jpg").fade(200).listen(new CrossbowImage.Listener() {
             @Override
             public void onLoad(boolean success, boolean fromCache, Bitmap bitmap, ImageView imageView) {
                 if (success) {
